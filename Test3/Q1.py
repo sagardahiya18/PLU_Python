@@ -16,6 +16,6 @@ def searchroll(rollnum, target):
     else:
         print("Student Not Found")
 
-roll_numbers = list(map(int, input("Enter roll numbers separated by spaces: ").split()))
-search = int(input("Enter roll number to search: "))
+roll_numbers = list(map(int, input("Enter roll numbers: ").split()))
+search = int(input("Enter rollno: "))
 searchroll(roll_numbers, search)
